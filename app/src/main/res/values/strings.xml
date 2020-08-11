@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="TenGame">DẠY TRẺ HỌC CHỮ</string><string name="app_name">my.project51</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_game_s">GameS</string>
+    <string name="Batdauhoc">Học chữ cái</string>
+    <string name="Caidat">Nhận biết các vật</string>
+    <string name="Thoat">Thoát</string>
+    <string name="thang">anhthangpro01</string>
+    <string name="title_play">activity_play</string>
+    <string name="playss">Goiplayss</string>
+    <string name="trochoi">Trò chơi</string>
+    <string name="tapviet">Tập viết</string>
+    <string name="nhanbietvat">Nhận biết 1 số vật</string>
+    <string name="button">Button</string>
+    <string name="ngheam">Nghe âm đoán chữ</string>
+    <string name="ghepchu">Chọn ảnh ghép chữ</string>
+    <string name="trolai">Quay lại</string>
+    <string name="cauhoi">cau_hoi</string>
+    <string name="traloi">Trả lời</string>
+    <string name="timchucai">Tìm chữ cái</string>
+    <string name="tritue">Trí tuệ (trẻ 4-6 tuổi)</string>
+    <string name="nghelai">Nghe lại</string>
+    <string name="ngheamchonchu">Chọn chữ cái hoặc chữ số đúng với phát âm</string>
+    <string name="cautiep">Câu sau</string>
+    <string name="chonanhphuhop">Chọn ảnh phù hợp ghép lại để được chữ cái hoàn chỉnh</string>
+    <string name="chontrochoi">Chọn trò chơi</string>
+    <string name="daytrehocchu">Dạy trẻ học chữ</string>
+    
+
+</resources>

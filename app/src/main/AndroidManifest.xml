@@ -1,0 +1,72 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.my.project51"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".GameS"
+            android:label="@string/daytrehocchu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />    
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:launchMode="singleInstance"
+            android:name=".Goiplayss"
+            android:label="@string/Caidat" >
+        </activity>
+        <activity android:name=".Addddddd" 
+            android:label="@string/Batdauhoc">
+        </activity>
+        <activity
+            android:name="com.example.my.project51.trochoi"
+            android:label="@string/trochoi">
+        </activity>
+          <activity android:name="com.example.my.project51.ngheamdoanchu"
+                    android:label="@string/ngheam">
+        </activity>
+         <activity android:name="com.example.my.project51.vietchu"
+                    android:label="@string/tapviet">
+        </activity>
+        <activity android:name="com.example.my.project51.chontrochoi"
+            android:label="@string/chontrochoi">
+        </activity>
+        <activity android:name="timchucai.tim1"
+            android:label="@string/timchucai">
+        </activity>
+        <activity android:name="timchucai.tim2"
+            android:label="@string/timchucai">
+        </activity>
+        <activity android:name="timchucai.tim3"
+            android:label="@string/timchucai">
+        </activity>
+        <activity android:name="timchucai.tim4"
+            android:label="@string/timchucai">
+        </activity>
+        <activity android:name="timchucai.tim5"
+            android:label="@string/timchucai">
+        </activity>
+        <activity android:name="chonanhghepchu.chucai1"
+            android:label="@string/ghepchu">
+        </activity>
+        <activity android:name="chonanhghepchu.chucai2"
+            android:label="@string/ghepchu">
+        </activity>
+        <activity android:name="chonanhghepchu.chucai3"
+            android:label="@string/ghepchu">
+        </activity>
+        <activity android:name="chonanhghepchu.chucai4"
+            android:label="@string/ghepchu">
+        </activity>
+        <activity android:name="chonanhghepchu.chucai5"
+            android:label="@string/ghepchu">
+        </activity>
+    </application>
+
+</manifest>

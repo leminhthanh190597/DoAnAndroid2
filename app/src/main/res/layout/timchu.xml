@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:textColor="@color/carot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ngheamchonchu"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<Button
+        android:id="@+id/nghelai"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:text="@string/nghelai" />
+    <GridView
+        android:id="@+id/myGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.72"
+        android:columnWidth="80dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:padding="10dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:text="@string/trolai" />
+
+    <Button
+        android:id="@+id/ketiep"
+        android:layout_marginTop="10dp"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:text="@string/cautiep" />
+
+</LinearLayout>
